@@ -1,0 +1,31 @@
+/*  Unidades de medida fijas y relativas*/
+body{
+    margin: 0;
+    padding: 20px;
+}
+
+.escenario{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.escenario1{
+    width: 100%;
+}
+.escenario2{
+    width: 50%;
+}
+
+.px{
+    width: 200px;
+    background-color: slategray;
+}
+.porcentaje{
+    width: 50%;
+    background-color: yellow;
+}
+.view{
+    background-color: blue;
+    width: 50vw;
+} 

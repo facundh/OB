@@ -1,0 +1,14 @@
+:root{
+    --color-principal: blue;
+    --ancho-principal:250px;
+}
+
+.titulo{
+    color: var(--color-principal);
+}
+
+.contenedor{
+    max-width: var(--ancho-principal);
+    background-color: red;
+    padding: 1rem;
+}

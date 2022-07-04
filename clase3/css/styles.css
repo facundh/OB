@@ -1,0 +1,33 @@
+/* Media Queries */
+
+/* De 576 en adelante se aplican estos estilos */
+h1{
+    color: red;
+}
+
+p{
+    color:blue;
+}
+
+
+/* de 0 a 576 se aplican estos estilos 
+Si fuera max-width se aplicarian los estilos a partir de los 576px y de 0 a 576 se aplicarian los estilos de arriba
+*/
+@media (min-width:576px){
+    h1{
+        font-size: 30px;
+        color: blue;
+    }
+
+    p{
+        font-size: 40px;
+        color: red;
+    }
+}
+
+
+@media (orientation:landscape){
+    p{
+        color:orange
+    }
+}
