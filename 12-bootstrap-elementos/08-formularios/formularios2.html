@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <title>Formularios2</title>
+  </head>
+  <body>
+    <div class="container p-4">
+      <!-- Form control es lo que nos indica que estamos trabajando con un formulario -->
+      <form action="">
+        <div class="row">
+          <select name="" id="" class="form-select form-select-sm mb-3">
+            <option selected class="form-select">Elige tu numero</option>
+            <!-- LO que va en el value es lo que se va a guardar -->
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <select name="" id="" class="form-select form-select-md mb-3">
+            <option selected class="form-select">Elige tu numero</option>
+            <!-- LO que va en el value es lo que se va a guardar -->
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <select name="" id="" class="form-select form-select-lg mb-3">
+            <option selected class="form-select">Elige tu numero</option>
+            <!-- LO que va en el value es lo que se va a guardar -->
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <!-- Selección multiplie -->
+          <select
+            multiple
+            size="2"
+            name=""
+            id=""
+            class="form-select form-select-lg mb-3"
+          >
+            <option selected>Elige tu numero</option>
+            <!-- LO que va en el value es lo que se va a guardar -->
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+         
+        </div>
+
+        <!-- Check pueden estar o no chequeados, los radios solo se pueden elegir una opcion -->
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="Esta de acuerdo" id="flexCheckIndeterminate">
+            <label class="form-check-label" for="flexCheckIndeterminate">
+              Estoy de acuerdo con los terminos y condiciones.
+            </label>
+          </div>
+
+        <div class="mb-4 mt-4 form-check form-check-inline">
+
+            <!-- Radio -->
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="mayor" value="Mayor de edad">
+                <label class="form-check-label" for="flexRadioDefault2">Soy mayor de edad</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="menor" value="Menor de edad">
+                <label class="form-check-label" for="flexRadioDefault2">Soy menor de edad</label>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+        
+
+        <!-- Switch -->
+        <div class="form-check form-switch mt-4">
+            <input class="form-check-input" type="checkbox" value="Esta de acuerdo" id="switch">
+            <label class="form-check-label" for="switch">
+              Estoy de acuerdo con los terminos y condiciones.
+            </label>
+        </div>
+
+        <!-- Outlined styles  inputs de tipo radio clase btn-check-->
+        <div class="mt-4">
+           
+
+<input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+<label class="btn btn-outline-success" for="success-outlined">Checked success radio</label>
+<input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+<label class="btn btn-outline-danger" for="danger-outlined">Danger radio</label>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
+</html>
